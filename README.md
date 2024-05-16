@@ -1,25 +1,25 @@
 # dida365-test
 
-https://web.postman.co/
+`https://web.postman.co/`
 
 谷歌邮箱登录
 
 文档：
-https://developer.dida365.com/docs#/openapi
+`https://developer.dida365.com/docs#/openapi`
 首先创建：
 
 第一步接口配置：
-https://dida365.com/oauth/authorize?scope=tasks:write tasks:read&client_id=rE1Sv62USQuIoTs5af&state=state&redirect_uri=https://www.baidu.com/&response_type=code
+`https://dida365.com/oauth/authorize?scope=tasks:write tasks:read&client_id=rE1Sv62USQuIoTs5af&state=state&redirect_uri=https://www.baidu.com/&response_type=code`
 
 
 第二步：
-https://dida365.com/oauth/authorize?scope=tasks:write tasks:read&client_id=rE1Sv62USQuIoTs5af&state=state&redirect_uri=https://www.baidu.com/&response_type=code在浏览器中运行
+`https://dida365.com/oauth/authorize?scope=tasks:write tasks:read&client_id=rE1Sv62USQuIoTs5af&state=state&redirect_uri=https://www.baidu.com/&response_type=code`在浏览器中运行
 地址栏返回如：https://www.baidu.com/?code=Zcy6Gd&state=state
 
 
 
 第三步：
-https://dida365.com/oauth/token
+`https://dida365.com/oauth/token`
 认证：输入appsetting中的basic auth, 输入第二步返回的code（如Zcy6Gd）。
 返回值如：
 ```python
@@ -36,7 +36,7 @@ https://dida365.com/oauth/token
 目前也咨询了技术、飞扬、令涛
 
 ## 获取所有project
-https://dida365.com/open/v1/project/
+`https://dida365.com/open/v1/project/`
 
 使用 Postman 设置授权
 1. 打开 Postman。
@@ -69,7 +69,7 @@ https://dida365.com/open/v1/project/
 ```
 
 ## 用上一条中的id获得对应的project
-https://dida365.com/open/v1/project/66454737eb96f60000000043
+`https://dida365.com/open/v1/project/66454737eb96f60000000043`
 返回值如：
 ```python
 
@@ -83,7 +83,7 @@ https://dida365.com/open/v1/project/66454737eb96f60000000043
 }
 ```
 ## 用上一条中的id获得进一步的project详细信息
-https://dida365.com/open/v1/project/66454737eb96f60000000043/data
+`https://dida365.com/open/v1/project/66454737eb96f60000000043/data`
 返回值如：
 ```python
 
