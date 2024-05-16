@@ -14,7 +14,7 @@
 
 第二步：
 `https://dida365.com/oauth/authorize?scope=tasks:write tasks:read&client_id=rE1Sv62USQuIoTs5af&state=state&redirect_uri=https://www.baidu.com/&response_type=code`在浏览器中运行
-地址栏返回如：https://www.baidu.com/?code=Zcy6Gd&state=state
+地址栏返回如：`https://www.baidu.com/?code=Zcy6Gd&state=state`
 
 
 
