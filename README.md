@@ -23,7 +23,6 @@
 认证：输入appsetting中的basic auth, 输入第二步返回的code（如Zcy6Gd）。
 返回值如：
 ```python
-
 {
     "access_token": "65b89ec8-ed1b-4e52-9e47-e7a5cf80743a",
     "token_type": "bearer",
@@ -48,7 +47,6 @@
 
 返回值如：
 ```python
-
 [
     {
         "id": "6483b3ca414c9108d37c11ae",
@@ -72,7 +70,6 @@
 `https://dida365.com/open/v1/project/66454737eb96f60000000043`
 返回值如：
 ```python
-
 {
     "id": "66454737eb96f60000000043",
     "name": "成信",
@@ -86,7 +83,6 @@
 `https://dida365.com/open/v1/project/66454737eb96f60000000043/data`
 返回值如：
 ```python
-
 {
     "project": {
         "id": "66454737eb96f60000000043",
