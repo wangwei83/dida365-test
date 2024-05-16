@@ -22,13 +22,15 @@ https://dida365.com/oauth/authorize?scope=tasks:write tasks:read&client_id=rE1Sv
 https://dida365.com/oauth/token
 认证：输入appsetting中的basic auth, 输入第二步返回的code（如Zcy6Gd）。
 返回值如：
+```python
+
 {
     "access_token": "65b89ec8-ed1b-4e52-9e47-e7a5cf80743a",
     "token_type": "bearer",
     "expires_in": 15520438,
     "scope": "tasks:read tasks:write"
 }
-
+```
 
 下一步解决普通接口的调用。
 目前也咨询了技术、飞扬、令涛
@@ -45,6 +47,8 @@ https://dida365.com/open/v1/project/
 6.发送请求。
 
 返回值如：
+```python
+
 [
     {
         "id": "6483b3ca414c9108d37c11ae",
@@ -62,10 +66,13 @@ https://dida365.com/open/v1/project/
         "kind": "TASK"
     }
 ]
+```
 
 ## 用上一条中的id获得对应的project
 https://dida365.com/open/v1/project/66454737eb96f60000000043
 返回值如：
+```python
+
 {
     "id": "66454737eb96f60000000043",
     "name": "成信",
@@ -74,10 +81,12 @@ https://dida365.com/open/v1/project/66454737eb96f60000000043
     "viewMode": "list",
     "kind": "TASK"
 }
-
+```
 ## 用上一条中的id获得进一步的project详细信息
 https://dida365.com/open/v1/project/66454737eb96f60000000043/data
 返回值如：
+```python
+
 {
     "project": {
         "id": "66454737eb96f60000000043",
@@ -116,4 +125,4 @@ https://dida365.com/open/v1/project/66454737eb96f60000000043/data
     ],
     "columns": []
 }
-
+```
